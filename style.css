@@ -1,0 +1,318 @@
+:root{
+    --bg-color: #1E1E1F;
+
+}
+body{
+    background-color: black !important;
+    scroll-behavior: smooth;
+   
+}
+
+/* font */
+@font-face {
+    font-family: 'brooklyn';
+    src: url('assets/fonts/brooklyn_chill_out/Brooklyn\ Chill\ Out.ttf') format('truetype');
+   
+    
+  }
+  @font-face {
+    font-family: 'VERMIN';
+    src: url('assets/fonts/vermin-vibes-v-font/VerminVibesV-Zlg3.ttf') format('truetype');
+  }
+  /*custom fonts*/
+  .pry-fonts{
+    font-family: VERMIN;
+  }
+  .sec-fonts{
+    font-family: Poppins;
+  }
+
+  /* custom text*/
+  .heading1{
+    font-family: VERMIN;
+    font-size: 80px !important;
+    /* -webkit-text-stroke: 3px #BD3537;
+    -webkit-text-fill-color:var(--bg-color); */
+    color: #BD3537;
+    /* font-weight: 600; */
+    letter-spacing: 2px;
+    
+  }
+  .heading2{
+    font-family: VERMIN;
+    font-size: 30px !important;
+    color: WHITE;
+    position: relative;
+    padding-bottom: 7px;
+    font-weight: 400;
+  }
+  .heading3{
+    font-family: VERMIN;
+    font-size: 20px !important;
+    color: white;
+    
+  }
+  .heading2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 5px;
+    background: #BD3537;
+    border-radius: 3px;
+  }
+  .paragraph{
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 0.637) !important;
+    font-size: 15px !important;
+  }
+/* Nav bar */
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    font-family: VERMIN;
+    font-size: 15px;
+    background-color:  transparent!important;
+}
+.active{
+    color: #BD3537;
+}
+
+
+/*hero*/
+.hero-img{
+    position: relative;
+    display: inline-block;
+}
+.hero-img img{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+  
+}
+#fortune-message {
+    /* margin-bottom: 50px;
+    font-size: 1.2em;
+    color: white;
+    z-index: 1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px 10px;
+    width: 300px;
+    display: none;
+    background-color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #333;
+    pointer-events: none;
+    font-family: Poppins;
+  }
+.socials img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+/*about us*/
+.about-img img{
+    width: 500px;
+    height: 500px;
+   
+
+}
+/* .border{
+    background-color:black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.774) 0px 22px 70px 4px;
+   
+  } */
+   #about{
+      background-color: ;
+   }
+
+  /*HOW TO BUY*/
+  .accordion-button{
+    color: #BD3537 !important;
+  }
+
+  .accordion-body{
+    background-color: #1E1E1F !important;
+    color: white !important;
+  }
+  /*#DFA915*/
+
+  /*Tokenomics*/
+
+  .Tokenomics{
+    background-color: #851F22;
+    
+  }
+  .Tokenomics-img img{
+    width: 500px ;
+     height: 400px; 
+     object-fit: contain;
+  }
+
+  /* road map */
+
+  
+  .timeline{
+    margin :0 auto;
+    max-width:950px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+
+   
+  }
+  .checkpoint2{
+    display: none;
+   }
+  .checkpoint{
+    margin: 0 20px 20px 20px;
+  }
+  
+  .checkpoint-middle{
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.158);
+  }
+  .checkpoint-point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 15px;
+    width: 15px;
+    background-color:   #BD3537 ;
+    border-radius: 50%;
+
+  }
+  .checkpoint-bottom{
+    margin-bottom: 0;
+  }
+  .checkpoint-point-bottom{
+    top: initial;
+    bottom: 0px;
+  }
+  .checkpoint-bg{
+    padding: 1.5em;
+    background-color: none;
+  }
+  .checkpoint-paragraph{
+    line-height: 1.5em;
+  }
+  .team-socials a{
+    padding: 10px;
+    color:#7bcbe3 ;
+  }
+  .roadmap-end{
+    width:500px; 
+    height:200px ;
+    object-fit: contain;
+     text-align: center;
+  }
+ 
+
+ 
+
+
+  @media all and (max-width: 600px){
+
+    .about-img img{
+      width: 350px;
+      height: 350px;
+     }
+     .hero-img img{
+      width: 350px;
+      height: 350px;
+      cursor: pointer;
+    }
+    .Tokenomics-img img{
+      width: 400px ;
+     height: 300px; 
+     object-fit: contain;
+    }
+    .roadmap-end{
+      width:350px; 
+    height:200px ;
+    object-fit: contain;
+     text-align: center;
+    }
+  
+     .checkpoint-middle{
+      display: none;
+     }
+     .checkpoint-date-right{
+      text-align: center;
+     }
+     .checkpoint-date-left{
+      text-align: center;
+     }
+     .timeline{
+      display:block;
+ 
+     }
+     .checkpoint2{
+      display:block;
+     }
+     .checkpoint3{
+      display: none;
+     }
+    
+  }
+
+  /* To TOP*/
+  #Top{
+    /* background-color: var(--darkbg); */
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+  }
+  #Top-value{
+    display: block;
+    height: calc(100% - 4px);
+    width: calc(100% - 4px);
+    background-color: #1E1E1F;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #BD3537;
+  font-size: 15px;
+  }
+
+  /* loader*/
+  
+.spinner-wrapper{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 5.9s;
+}
+.spinner-border{
+  height: 60px;
+  width: 60px;
+  color: #BD3537;
+}

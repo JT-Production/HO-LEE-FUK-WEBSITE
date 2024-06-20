@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ho Lee $Fuk!</title>
+    <!--
+        External Css
+    -->
+    <link rel="stylesheet" href="style.css">
+
+     <!-- 
+      google font link
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!--
+      offline bootstrap link
+    -->
+    <!-- <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> -->
+
+    <!--
+        Bootstarp CSS link 
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--
+      Icon Link
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--
+    Animation link css
+    -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+<body>
+
+  <div class="spinner-wrapper" >
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+    <!--
+        Nav bar
+    -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark " aria-label="Fifth navbar example">
+        <div class="container" data-aos="fade-down" data-aos-delay="500" data-aos-duration="4000">
+          <a class="navbar-brand" href="#"><img src="assets/logo/logo T.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link">How to buy</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Tokenomics</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link">Roadmap </a>
+              </li>
+             
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    
+
+      <!--
+       ================================================ HERO=======================================
+      -->
+      <div class="container hero text-white py-5 px-5">
+        <div class="row">
+            <div class="col-md-6 py-3" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="4000">
+                <h1 class="heading1  pb-2">HO <br> LEE <br> $Fuk  </h1>
+                <h5 class="paragraph " >In the world of crypto, <span style="color: #BD3537;">$FUK</span> is your golden ticket to the moon.</h5>
+                    <div class="socials d-flex ">
+                        <img src="assets/images/twitter (2).webp" alt="">
+                        <img src="assets/images/telgrrgrgrgr.webp" alt="">
+                        <img src="assets/images/uniswap (2).webp" alt="">
+                        <img src="assets/images/dexscreener.png" alt="" style="border-radius: 20px;">
+                        <img src="assets/images/dextools (1).webp" alt="">
+
+                    </div>
+            </div>
+            <div class="col-md-6 py-4" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="4000">
+               <h2 class="heading2">Forture Cookies</h2>
+                <div class="hero-img p ">
+                    
+                    <img src="assets/images/cookies.png" alt="" id="cookie-image">
+                    <p id="fortune-message"></p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!--
+       ================================================ABOUT=======================================
+      -->
+
+      <section id="about" class="">
+        <div class="container py-5 px-5">
+            <div class="row  py-3">
+                <div class="col-md-6 about-img" data-aos="fade-up" data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="assets/logo/banner 3.jpg" alt="">
+                </div>
+
+                <div class="col-md-6 pt-5" data-aos="fade-up" data-aos-duration="3000"> 
+                  <h1 class="heading2 pt-5">  About</h1>
+
+                    <p class="paragraph pt-5">Herro! Ho Lee Fuk is the meme coin that will make you say, "Ho Lee Fuk!" every time you check your wallet. Inspired by the classic Chinese meme, $FUK is designed to bring laughter and good fortune to your Solana wallet!
+                      <br><br><br>
+                      Don’t miss out – because when you miss $FUK, you’ll be saying “Ho Lee Fuk” too!</p>
+                
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+
+      <!--============================================HOW TO BUY===========================-->
+
+      <section id="howtobuy" class=" py-5 mt-5">
+        <div class="container">
+         <h1 class="heading2  my-5" >HOW TO BUY </h1> 
+            <center>
+            <div class="accordion  " id="accordionFlushExample">
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed heading3 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        1. Create Your Wallet
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start ">
+                      <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center justify-content-evenly"><img src="assets/logo/phanthom logo.png" alt="" width="100px" height="100px">
+                          <img src="assets/logo/sol logo.webp" alt="" width="100px" height="100px">
+                        </div>
+                        <div class="col-md-6  justify-content-center align-content-center " style="font-size: 20px; font-family: poppins;">   First, you need a safe place for <code>$FUK</code> storage! Create your wallet using Phantom Wallet or Solflare Wallet. It’s easy-peasy, like making dumprings!</div>
+                      </div>
+                      </div>
+                     </div>
+                </div>
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed heading3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        2. Buy Solana ($SOL)
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start ">
+                      <div class="row">
+                        <div class="col-md-6 text-center"><img src="assets/logo/solana logo.webp" alt="" width="100px" height="100px"></div>
+                        <div class="col-md-6  justify-content-center align-content-center " style="font-size: 20px; font-family: poppins;">   Now you need some Solana (SOL), the Feng Shui  of crypto world. Buy SOL directly on your wallet or a centralized exchange. Think of it like getting tickets to the dragon festival!
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed heading3"type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        3. Swap for $FUK
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start ">
+                      <div class="row">
+                        <div class="col-md-6 text-center"><img src="assets/logo/logo T.png" alt="" width="100px" height="100px"></div>
+                        <div class="col-md-6  justify-content-center align-content-center " style="font-size: 20px; font-family: poppins;">    Time for the fun part! Swap your SOL for <code>$FUK</code>. Just a few clicks and BAM! You receive the hottest trending meme coin. Watch your wallet and get ready to say, "Ho Lee Fuk!"
+                    
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </center>
+
+        </div>
+      </section>
+
+
+
+      <!--=========================================================Tokenomics=======================================================-->
+
+      <section id="Tokenomics" class="Tokenomics py-5 ">
+        <div class="container" data-aos="fade-in"data-aos-duration="3000" data-aos-delay="100">
+          <h1 class="heading2  mb-4" style="color: white !important;">Tokenomics</h1> 
+          <div class="row">
+            <div class="col-md-6 Tokenomics-img"><img src="assets/logo/banner 2.jpg" alt="" style="" ></div>
+            <div class="col-md-6 py-5 mt-3"> <h1 class="heading3">AMOUNT XXXXX <br><br> LP tokens are burnt, and <br><br> contract ownership is renounced.</h1></div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!--=========================================================ROAD MAP=======================================================-->
+
+      
+<!-- 
+      <section id="Roadmap">
+
+
+        <div class="container py-5">
+          <h1 class="heading2   mb-4" style="color: white !important;">Road Map</h1> 
+
+          <div class="container py-2" id="classic" style="background-color:rgba(0, 0, 0, 0.212);  border-radius: 5px; border: 1px solid white">
+            <br>
+                
+              <h2 class="text-white heading3">  Stop 1: Ni Hao Pump Party 🎉 </h2>
+
+              <p class="text-white paragraph">Kick off the $FUK journey with a big pump launching coin on pump.fun! </p>
+              <p class="text-end">
+                <a href="#" type="button" class="btn btn-outline-danger rounded-0  fw-bold">FIND OUT MORE  <i class="bi bi-chevron-right "></i></a>
+              </p>
+
+          </div>
+
+        <br><br><br>
+
+
+        <div class="container py-2" id="classic" style="background-color:rgba(0, 0, 0, 0.212);  border-radius: 5px; border: 1px solid white;">
+          <br>
+              
+            <h2 class="text-white heading3">Stop 2: Ching Chong Exchange Listing 💹 </h2>
+
+            <p class="text-white paragraph"> Get $FUK listed on major exchanges. Let everyone buy, sell, and trade $FUK easily. Celebrate with a virtual dumpling party!</p>
+            <p class="text-end">
+              <a href="#" type="button" class="btn btn-outline-danger rounded-0  fw-bold"">FIND OUT MORE  <i class="bi bi-chevron-right "></i></a>
+            </p>
+
+        </div>
+
+      <br><br><br>
+
+      <div class="container py-2" id="classic" style="background-color:rgba(0, 0, 0, 0.212);  border-radius: 5px; border: 1px solid white;">
+        <br>
+            
+          <h2 class="text-white heading3">Stop 3: Kung Fu Marketing </h2>
+
+          <p class="text-white paragraph"> Quest to find the funniest Ho Lee Fuk memes – winner gets a big bag of $FUK!</p>
+          <p class="text-end">
+            <a href="#" type="button" class="btn btn-outline-danger rounded-0  fw-bold"">FIND OUT MORE  <i class="bi bi-chevron-right "></i></a>
+          </p>
+
+      </div>
+
+    <br><br><br>
+
+    <div class="container py-2" id="classic" style="background-color:rgba(0, 0, 0, 0.212);  border-radius: 5px; border: 1px solid white;">
+      <br>
+          
+        <h2 class="text-white heading3">Stop 4: Great Wall of Adoption 🏯</h2>
+
+        <p class="text-white paragraph"> By using memes FUK will onboard all the asian whales into crypto.</p>
+        <p class="text-end">
+          <a href="#" type="button" class="btn btn-outline-danger rounded-0  fw-bold"">FIND OUT MORE  <i class="bi bi-chevron-right "></i></a>
+        </p>
+
+    </div>
+
+
+
+      </div>
+        
+      </section>
+ -->
+
+
+<section class="bg-black py-5">
+<div class="container">
+  <h1 class="heading2  mb-4" style="color: white !important;">Road map</h1> 
+  <center><img src="assets/images/roadmap.jpg" alt="" width="300px" height="200px" style="object-fit: contain; text-align: center;"></center>
+<center><div class="timeline  bg-black">
+
+
+  <div class="checkpoint ">
+    <div class="checkpoint-date checkpoint-date-right"></div>
+  </div>
+    <div class="checkpoint-middle">
+      <div class="checkpoint-point"></div>
+
+    </div>
+    <div class="checkpoint checkpoint-bottom checkpoint-bg" >
+      <h1 class="heading3">Stop 1:</h1>
+     <img src="assets/images/road-map 1.jpg" width="250px" height="350px" style="object-fit: cover;" data-aos="fade-up" data-aos-duration="2000" > 
+    
+  </div>
+  <div class="checkpoint2 ">
+    <div class="checkpoint-date "> </div>
+  </div>
+  <div class="checkpoint checkpoint-bottom checkpoint-bg">
+    <h1 class="heading3">Stop 2:</h1>
+    <img src="assets/images/road-map 2.jpg" width="250px" height="350px" style="object-fit: cover;" data-aos="fade-up" data-aos-duration="2000" > 
+    </div>
+   
+  <div class="checkpoint-middle">
+    <div class="checkpoint-point"></div>
+    <div class="checkpoint-point checkpoint-point-bottom"></div>
+  </div>
+  
+  <div class="checkpoint3 ">
+    <div class="checkpoint-date "> </div>
+  </div>
+
+
+
+  <div class="checkpoint ">
+    <div class="checkpoint-date checkpoint-date-right"> </div>
+  </div>
+    <div class="checkpoint-middle">
+      
+
+    </div>
+    <div class="checkpoint checkpoint-bottom checkpoint-bg">
+      <h1 class="heading3">Stop 3:</h1>
+      <img src="assets/images/road-map 3.jpg" width="270px" height="350px" style="object-fit: cover;" data-aos="fade-up" data-aos-duration="2000" > 
+  </div>
+
+  <div class="checkpoint checkpoint-bottom checkpoint-bg">
+    <h1 class="heading3">Stop 4:</h1>
+    <img src="assets/images/road-map-4.jpg" width="250px" height="350px" style="object-fit: cover;" data-aos="fade-up" data-aos-duration="2000" > 
+  </div>
+
+  <div class="checkpoint-middle">
+    <div class="checkpoint-point"></div>
+    <div class="checkpoint-point checkpoint-point-bottom"></div>
+  </div>
+  <div class="checkpoint ">
+    <div class="checkpoint-date "></div>
+  </div>
+
+ 
+
+</div></center> 
+<center><img src="assets/images/stop road-map.jpg" alt="" class="roadmap-end" ></center>
+
+</div>
+</section>
+
+
+
+      <!--DISCLAMER-->
+
+      <section class="bg-white py-5">
+
+        <div class="container">
+          <h1 class="heading2 text-black mb-5">Disclaimer:</h1>
+          <p class="paragraph text-black"> While we love to meme and enjoy with $FUK, it's much important to remember: Do Your Own Research (DYOR)! Cryptocurrency can be risky business. Only invest what you can afford to lose - no more, no ress. 
+
+            Remember, if you lose it all, you don't wanna be saying, "Ho Lee Fuk!" for the wrong lessons.
+            
+            Stay safe and happy investing! $FUK</p>
+
+           <div class="container">
+            <div class="text-center"> <img src="assets/logo/banner T.png" alt="" class="roadmap-end"></div>
+            
+           </div>
+        </div>
+
+      </section>
+
+
+
+
+      <!--FOOTER-->
+      <section class="footer py-3 ">
+
+        <div class="container ">
+          <p class="text-white paragraph text-center">&copy; HO LEE $FUK All right reserved.</p>
+          
+        </div>
+
+      </section>
+      
+
+      <!---=============================Back to Top============================-->
+      <div id="Top" class="hover">
+        <span id="Top-value"><i class="fa-solid fa-arrow-up"></i></span>
+      </div>
+    <!--
+        External js
+    -->
+    <script src="script.js"></script>
+    <!--
+        Bootstarp Js link
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init(
+          {
+            offset:300,
+            duration: 1000,
+            easing: 'ease',
+            once:true
+            
+           
+          }
+        );
+
+
+        </script>
+</body>
+</html>
