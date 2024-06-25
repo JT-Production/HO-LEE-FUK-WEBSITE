@@ -91,8 +91,9 @@ body{
     width: 400px;
     height: 400px;
     cursor: pointer;
-  
+    
 }
+
 #fortune-message {
     /* margin-bottom: 50px;
     font-size: 1.2em;
@@ -162,6 +163,37 @@ body{
      height: 400px; 
      object-fit: contain;
   }
+  
+button.bt{
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+ 
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+}
+button.btn-2{
+    
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    font-family: vermin;
+  }
+  
+  button.btn-2:hover{
+    color: black;
+  }
+  
+  
+ 
 
   /* road map */
 
