@@ -108,8 +108,8 @@ body{
     display: none;
     background-color: white;
     text-align: center;
-    font-size: 1.2em;
-    font-weight: 700;
+    font-size: 0.8em;
+    
     color: #333;
     pointer-events: none;
     font-family: Poppins;
